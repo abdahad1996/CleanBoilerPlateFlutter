@@ -1,7 +1,7 @@
 # Stacked Starter Template
 
 A Flutter starter template using stacked architecture.
-
+[understanding](https://liewjuntung.medium.com/stacked-architecture-in-flutter-dfb07528c0c4)
 # Stacked
 
 An architecture developed and revised by the [FilledStacks](https://www.youtube.com/filledstacks) community. This architecture was initially a version of MVVM as [described in this video](https://youtu.be/kDEflMYTFlk). Since then Filledstacks app development team has built 6 production applications with various requirements. This experience along with countless requests for improvements and common functionality is what sparked the creation of this architecture package. It aims to provide **common functionalities to make app development easier** as well as code principles to use during development to ensure your code stays maintainable.
