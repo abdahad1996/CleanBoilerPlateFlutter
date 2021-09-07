@@ -21,7 +21,7 @@ class App extends StatelessWidget {
       themes: themes,
       builder: (context, regularTheme, darkTheme, themeMode) => MaterialApp(
         title: 'Stacked Starter Tempalte',
-        theme: regularTheme,
+        theme: PortfolioTheme.light(),
         darkTheme: PortfolioTheme.light(),
         themeMode: themeMode,
         navigatorKey: StackedService.navigatorKey,
