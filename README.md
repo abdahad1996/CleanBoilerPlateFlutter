@@ -26,3 +26,13 @@ Let's go over some of those principles to follow during development.
 - ViewModels should not know about other ViewModels.
 
 That's quite a bit of "rules", but they help during production. Trust me.
+
+Package Setup
+
+flutter create --template=package stacked_ui
+When that's complete we want to create the example app for the package. Navigate into the box_ui folder and create the example app.
+cd stacked_ui
+flutter create example
+Open up the example project and then we'll add a relative path to the stacked_ui package.
+stacked_ui:
+    path: ../
