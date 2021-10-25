@@ -7,7 +7,7 @@ class PlaceHolderClient extends BaseClientGenerator with _$PlaceHolderClient {
   const PlaceHolderClient._() : super();
   const factory PlaceHolderClient.posts() = _Posts;
   const factory PlaceHolderClient.users() = _Users;
-  
+
   const factory PlaceHolderClient.naw() = _Naw;
 
   @override
@@ -19,11 +19,10 @@ class PlaceHolderClient extends BaseClientGenerator with _$PlaceHolderClient {
   @override
   String get path {
     return this.when<String>(
-        posts: () => 'posts/', 
-        users: () => 'users/', 
-        naw: ()  => 'naw/',
-        
-        );
+      posts: () => 'posts/',
+      users: () => 'users/',
+      naw: () => 'naw/',
+    );
   }
 
   @override

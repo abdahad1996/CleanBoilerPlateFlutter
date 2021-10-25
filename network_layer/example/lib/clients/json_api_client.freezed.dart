@@ -100,7 +100,6 @@ class __$PostsCopyWithImpl<$Res> extends _$PlaceHolderClientCopyWithImpl<$Res>
 }
 
 /// @nodoc
-
 class _$_Posts extends _Posts {
   const _$_Posts() : super._();
 
@@ -188,7 +187,6 @@ class __$UsersCopyWithImpl<$Res> extends _$PlaceHolderClientCopyWithImpl<$Res>
 }
 
 /// @nodoc
-
 class _$_Users extends _Users {
   const _$_Users() : super._();
 
