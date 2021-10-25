@@ -23,6 +23,10 @@ class _$PlaceHolderClientTearOff {
   _Users users() {
     return const _Users();
   }
+
+  _Naw naw() {
+    return const _Naw();
+  }
 }
 
 /// @nodoc
@@ -34,12 +38,14 @@ mixin _$PlaceHolderClient {
   TResult when<TResult extends Object?>({
     required TResult Function() posts,
     required TResult Function() users,
+    required TResult Function() naw,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? posts,
     TResult Function()? users,
+    TResult Function()? naw,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -47,12 +53,14 @@ mixin _$PlaceHolderClient {
   TResult map<TResult extends Object?>({
     required TResult Function(_Posts value) posts,
     required TResult Function(_Users value) users,
+    required TResult Function(_Naw value) naw,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
     TResult Function(_Posts value)? posts,
     TResult Function(_Users value)? users,
+    TResult Function(_Naw value)? naw,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -92,6 +100,7 @@ class __$PostsCopyWithImpl<$Res> extends _$PlaceHolderClientCopyWithImpl<$Res>
 }
 
 /// @nodoc
+
 class _$_Posts extends _Posts {
   const _$_Posts() : super._();
 
@@ -113,6 +122,7 @@ class _$_Posts extends _Posts {
   TResult when<TResult extends Object?>({
     required TResult Function() posts,
     required TResult Function() users,
+    required TResult Function() naw,
   }) {
     return posts();
   }
@@ -122,6 +132,7 @@ class _$_Posts extends _Posts {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? posts,
     TResult Function()? users,
+    TResult Function()? naw,
     required TResult orElse(),
   }) {
     if (posts != null) {
@@ -135,6 +146,7 @@ class _$_Posts extends _Posts {
   TResult map<TResult extends Object?>({
     required TResult Function(_Posts value) posts,
     required TResult Function(_Users value) users,
+    required TResult Function(_Naw value) naw,
   }) {
     return posts(this);
   }
@@ -144,6 +156,7 @@ class _$_Posts extends _Posts {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(_Posts value)? posts,
     TResult Function(_Users value)? users,
+    TResult Function(_Naw value)? naw,
     required TResult orElse(),
   }) {
     if (posts != null) {
@@ -175,6 +188,7 @@ class __$UsersCopyWithImpl<$Res> extends _$PlaceHolderClientCopyWithImpl<$Res>
 }
 
 /// @nodoc
+
 class _$_Users extends _Users {
   const _$_Users() : super._();
 
@@ -196,6 +210,7 @@ class _$_Users extends _Users {
   TResult when<TResult extends Object?>({
     required TResult Function() posts,
     required TResult Function() users,
+    required TResult Function() naw,
   }) {
     return users();
   }
@@ -205,6 +220,7 @@ class _$_Users extends _Users {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? posts,
     TResult Function()? users,
+    TResult Function()? naw,
     required TResult orElse(),
   }) {
     if (users != null) {
@@ -218,6 +234,7 @@ class _$_Users extends _Users {
   TResult map<TResult extends Object?>({
     required TResult Function(_Posts value) posts,
     required TResult Function(_Users value) users,
+    required TResult Function(_Naw value) naw,
   }) {
     return users(this);
   }
@@ -227,6 +244,7 @@ class _$_Users extends _Users {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(_Posts value)? posts,
     TResult Function(_Users value)? users,
+    TResult Function(_Naw value)? naw,
     required TResult orElse(),
   }) {
     if (users != null) {
@@ -239,4 +257,92 @@ class _$_Users extends _Users {
 abstract class _Users extends PlaceHolderClient {
   const factory _Users() = _$_Users;
   const _Users._() : super._();
+}
+
+/// @nodoc
+abstract class _$NawCopyWith<$Res> {
+  factory _$NawCopyWith(_Naw value, $Res Function(_Naw) then) =
+      __$NawCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$NawCopyWithImpl<$Res> extends _$PlaceHolderClientCopyWithImpl<$Res>
+    implements _$NawCopyWith<$Res> {
+  __$NawCopyWithImpl(_Naw _value, $Res Function(_Naw) _then)
+      : super(_value, (v) => _then(v as _Naw));
+
+  @override
+  _Naw get _value => super._value as _Naw;
+}
+
+/// @nodoc
+
+class _$_Naw extends _Naw {
+  const _$_Naw() : super._();
+
+  @override
+  String toString() {
+    return 'PlaceHolderClient.naw()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) || (other is _Naw);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() posts,
+    required TResult Function() users,
+    required TResult Function() naw,
+  }) {
+    return naw();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? posts,
+    TResult Function()? users,
+    TResult Function()? naw,
+    required TResult orElse(),
+  }) {
+    if (naw != null) {
+      return naw();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_Posts value) posts,
+    required TResult Function(_Users value) users,
+    required TResult Function(_Naw value) naw,
+  }) {
+    return naw(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_Posts value)? posts,
+    TResult Function(_Users value)? users,
+    TResult Function(_Naw value)? naw,
+    required TResult orElse(),
+  }) {
+    if (naw != null) {
+      return naw(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _Naw extends PlaceHolderClient {
+  const factory _Naw() = _$_Naw;
+  const _Naw._() : super._();
 }
